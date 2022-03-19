@@ -1,0 +1,554 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "design-portfolio",
+      "version": "0.0.1",
+      "scripts": {
+        "dev": "svelte-kit dev",
+        "build": "svelte-kit build",
+        "package": "svelte-kit package",
+        "preview": "svelte-kit preview",
+        "prepare": "svelte-kit sync",
+        "check": "svelte-check --tsconfig ./tsconfig.json",
+        "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
+        "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
+        "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
+      },
+      "devDependencies": {
+        "@sveltejs/adapter-auto": "next",
+        "@sveltejs/kit": "next",
+        "@typescript-eslint/eslint-plugin": "^5.10.1",
+        "@typescript-eslint/parser": "^5.10.1",
+        "eslint": "^7.32.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-svelte3": "^3.2.1",
+        "prettier": "^2.5.1",
+        "prettier-plugin-svelte": "^2.5.0",
+        "svelte": "^3.44.0",
+        "svelte-check": "^2.2.6",
+        "svelte-preprocess": "^4.10.1",
+        "tslib": "^2.3.1",
+        "typescript": "~4.6.2"
+      },
+      "type": "module"
+    },
+    "prefix": "/Users/ctom96/Projects/design-portfolio"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/Users/ctom96/.pnpm-store/v3",
+    "virtualStoreDir": "/Users/ctom96/Projects/design-portfolio/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/Users/ctom96/Projects/design-portfolio",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:update-check": {
+    "currentVersion": "6.32.3",
+    "latestVersion": "6.32.3"
+  },
+  "5 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/tslib/2.3.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "tslib",
+      "rawSpec": "^2.3.1"
+    }
+  },
+  "6 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tslib/2.3.1",
+    "requester": "/Users/ctom96/Projects/design-portfolio",
+    "status": "resolved"
+  },
+  "7 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/eslint-config-prettier/8.5.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "eslint-config-prettier",
+      "rawSpec": "^8.3.0"
+    }
+  },
+  "8 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint-config-prettier/8.5.0",
+    "requester": "/Users/ctom96/Projects/design-portfolio",
+    "status": "resolved"
+  },
+  "9 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/prettier/2.6.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "prettier",
+      "rawSpec": "^2.5.1"
+    }
+  },
+  "10 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prettier/2.6.0",
+    "requester": "/Users/ctom96/Projects/design-portfolio",
+    "status": "resolved"
+  },
+  "11 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/prettier-plugin-svelte/2.6.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "prettier-plugin-svelte",
+      "rawSpec": "^2.5.0"
+    }
+  },
+  "12 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prettier-plugin-svelte/2.6.0",
+    "requester": "/Users/ctom96/Projects/design-portfolio",
+    "status": "resolved"
+  },
+  "13 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/eslint/7.32.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "eslint",
+      "rawSpec": "^7.32.0"
+    }
+  },
+  "14 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint/7.32.0",
+    "requester": "/Users/ctom96/Projects/design-portfolio",
+    "status": "resolved"
+  },
+  "15 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/eslint-config-prettier/8.5.0",
+    "size": 5284,
+    "status": "started"
+  },
+  "16 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/tslib/2.3.1",
+    "size": 8041,
+    "status": "started"
+  },
+  "17 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/prettier/2.6.0",
+    "size": 4179342,
+    "status": "started"
+  },
+  "18 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/prettier-plugin-svelte/2.6.0",
+    "size": 48971,
+    "status": "started"
+  },
+  "19 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/eslint/7.32.0",
+    "size": 672397,
+    "status": "started"
+  },
+  "20 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@sveltejs/kit/1.0.0-next.301",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@sveltejs/kit",
+      "rawSpec": "next"
+    }
+  },
+  "21 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@sveltejs/kit/1.0.0-next.301",
+    "requester": "/Users/ctom96/Projects/design-portfolio",
+    "status": "resolved"
+  },
+  "22 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tslib/2.3.1",
+    "requester": "/Users/ctom96/Projects/design-portfolio",
+    "status": "fetched"
+  },
+  "23 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint-config-prettier/8.5.0",
+    "requester": "/Users/ctom96/Projects/design-portfolio",
+    "status": "fetched"
+  },
+  "24 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/eslint-plugin-svelte3/3.4.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "eslint-plugin-svelte3",
+      "rawSpec": "^3.2.1"
+    }
+  },
+  "25 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint-plugin-svelte3/3.4.1",
+    "requester": "/Users/ctom96/Projects/design-portfolio",
+    "status": "resolved"
+  },
+  "26 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prettier-plugin-svelte/2.6.0",
+    "requester": "/Users/ctom96/Projects/design-portfolio",
+    "status": "fetched"
+  },
+  "27 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte-check/2.4.6",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svelte-check",
+      "rawSpec": "^2.2.6"
+    }
+  },
+  "28 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte-check/2.4.6",
+    "requester": "/Users/ctom96/Projects/design-portfolio",
+    "status": "resolved"
+  },
+  "29 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte-preprocess/4.10.4",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svelte-preprocess",
+      "rawSpec": "^4.10.1"
+    }
+  },
+  "30 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte-preprocess/4.10.4",
+    "requester": "/Users/ctom96/Projects/design-portfolio",
+    "status": "resolved"
+  },
+  "31 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/typescript/4.6.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "typescript",
+      "rawSpec": "~4.6.2"
+    }
+  },
+  "32 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "requester": "/Users/ctom96/Projects/design-portfolio",
+    "status": "resolved"
+  },
+  "33 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/eslint-plugin-svelte3/3.4.1",
+    "size": 13139,
+    "status": "started"
+  },
+  "34 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/svelte-preprocess/4.10.4",
+    "size": 35103,
+    "status": "started"
+  },
+  "35 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/svelte-check/2.4.6",
+    "size": 684446,
+    "status": "started"
+  },
+  "36 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "size": 11410610,
+    "status": "started"
+  },
+  "37 debug pnpm:fetching-progress": {
+    "downloaded": 15832,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "38 debug pnpm:fetching-progress": {
+    "downloaded": 32147,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "39 debug pnpm:fetching-progress": {
+    "downloaded": 48531,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "40 debug pnpm:fetching-progress": {
+    "downloaded": 64915,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "41 debug pnpm:fetching-progress": {
+    "downloaded": 81299,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "42 debug pnpm:fetching-progress": {
+    "downloaded": 97683,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "43 debug pnpm:fetching-progress": {
+    "downloaded": 114067,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "44 debug pnpm:fetching-progress": {
+    "downloaded": 130451,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "45 debug pnpm:fetching-progress": {
+    "downloaded": 146835,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "46 debug pnpm:fetching-progress": {
+    "downloaded": 163219,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "47 debug pnpm:fetching-progress": {
+    "downloaded": 179603,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "48 debug pnpm:fetching-progress": {
+    "downloaded": 195987,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "49 debug pnpm:fetching-progress": {
+    "downloaded": 212371,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "50 debug pnpm:fetching-progress": {
+    "downloaded": 220376,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "51 debug pnpm:fetching-progress": {
+    "downloaded": 227633,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "52 debug pnpm:fetching-progress": {
+    "downloaded": 244017,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "53 debug pnpm:fetching-progress": {
+    "downloaded": 260401,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "54 debug pnpm:fetching-progress": {
+    "downloaded": 276785,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "55 debug pnpm:fetching-progress": {
+    "downloaded": 293169,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "56 debug pnpm:fetching-progress": {
+    "downloaded": 309553,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "57 debug pnpm:fetching-progress": {
+    "downloaded": 325937,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "58 debug pnpm:fetching-progress": {
+    "downloaded": 342321,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "59 debug pnpm:fetching-progress": {
+    "downloaded": 358705,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "60 debug pnpm:fetching-progress": {
+    "downloaded": 375089,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "61 debug pnpm:fetching-progress": {
+    "downloaded": 391473,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "62 debug pnpm:fetching-progress": {
+    "downloaded": 407857,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "63 debug pnpm:fetching-progress": {
+    "downloaded": 424241,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "64 debug pnpm:fetching-progress": {
+    "downloaded": 440625,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "65 debug pnpm:fetching-progress": {
+    "downloaded": 457009,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "66 debug pnpm:fetching-progress": {
+    "downloaded": 473393,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "67 debug pnpm:fetching-progress": {
+    "downloaded": 489777,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "68 debug pnpm:fetching-progress": {
+    "downloaded": 506161,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "69 debug pnpm:fetching-progress": {
+    "downloaded": 522545,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "70 debug pnpm:fetching-progress": {
+    "downloaded": 538929,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "71 debug pnpm:fetching-progress": {
+    "downloaded": 555313,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "72 debug pnpm:fetching-progress": {
+    "downloaded": 571697,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "73 debug pnpm:fetching-progress": {
+    "downloaded": 588081,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "74 debug pnpm:fetching-progress": {
+    "downloaded": 604465,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "75 debug pnpm:fetching-progress": {
+    "downloaded": 620849,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "76 debug pnpm:fetching-progress": {
+    "downloaded": 637233,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "77 debug pnpm:fetching-progress": {
+    "downloaded": 653617,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "78 debug pnpm:fetching-progress": {
+    "downloaded": 670001,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "79 debug pnpm:fetching-progress": {
+    "downloaded": 686385,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "80 debug pnpm:fetching-progress": {
+    "downloaded": 702769,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "81 debug pnpm:fetching-progress": {
+    "downloaded": 719153,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "82 debug pnpm:fetching-progress": {
+    "downloaded": 735537,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "83 debug pnpm:fetching-progress": {
+    "downloaded": 751921,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "84 debug pnpm:fetching-progress": {
+    "downloaded": 768305,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "85 debug pnpm:fetching-progress": {
+    "downloaded": 784689,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "86 debug pnpm:fetching-progress": {
+    "downloaded": 801073,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "87 debug pnpm:fetching-progress": {
+    "downloaded": 817457,
+    "packageId": "registry.npmjs.org/typescript/4.6.2",
+    "status": "in_progress"
+  },
+  "88 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte/3.46.4",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svelte",
+      "rawSpec": "^3.44.0"
+    }
+  },
+  "89 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte/3.46.4",
+    "requester": "/Users/ctom96/Projects/design-portfolio",
+    "status": "resolved"
+  },
+  "90 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/svelte/3.46.4",
+    "size": 1414049,
+    "status": "started"
+  },
+  "91 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/@sveltejs/kit/1.0.0-next.301",
+    "size": 500318,
+    "status": "started"
+  },
+  "92 warn pnpm:install-check": {
+    "message": "Unsupported engine for registry.npmjs.org/@typescript-eslint/parser/5.15.0: wanted: {\"node\":\"^12.22.0 || ^14.17.0 || >=16.0.0\"} (current: {\"node\":\"v14.16.0\",\"pnpm\":\"6.32.3\"})",
+    "prefix": "/Users/ctom96/Projects/design-portfolio"
+  },
+  "93 error pnpm": {
+    "code": "ERR_PNPM_UNSUPPORTED_ENGINE",
+    "packageId": "registry.npmjs.org/@typescript-eslint/parser/5.15.0",
+    "wanted": {
+      "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
+    },
+    "current": {
+      "node": "v14.16.0",
+      "pnpm": "6.32.3"
+    },
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "Unsupported engine for registry.npmjs.org/@typescript-eslint/parser/5.15.0: wanted: {\"node\":\"^12.22.0 || ^14.17.0 || >=16.0.0\"} (current: {\"node\":\"v14.16.0\",\"pnpm\":\"6.32.3\"})",
+      "code": "ERR_PNPM_UNSUPPORTED_ENGINE",
+      "stack": "pnpm: Unsupported engine for registry.npmjs.org/@typescript-eslint/parser/5.15.0: wanted: {\"node\":\"^12.22.0 || ^14.17.0 || >=16.0.0\"} (current: {\"node\":\"v14.16.0\",\"pnpm\":\"6.32.3\"})\n    at checkEngine (/Users/ctom96/.nvm/versions/node/v14.16.0/lib/node_modules/pnpm/dist/pnpm.cjs:41280:16)\n    at checkPackage (/Users/ctom96/.nvm/versions/node/v14.16.0/lib/node_modules/pnpm/dist/pnpm.cjs:43376:104)\n    at packageIsInstallable (/Users/ctom96/.nvm/versions/node/v14.16.0/lib/node_modules/pnpm/dist/pnpm.cjs:43346:20)\n    at resolveAndFetch (/Users/ctom96/.nvm/versions/node/v14.16.0/lib/node_modules/pnpm/dist/pnpm.cjs:74507:117)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at async resolveDependency (/Users/ctom96/.nvm/versions/node/v14.16.0/lib/node_modules/pnpm/dist/pnpm.cjs:116112:23)\n    at async resolveDependenciesOfDependency (/Users/ctom96/.nvm/versions/node/v14.16.0/lib/node_modules/pnpm/dist/pnpm.cjs:115947:39)\n    at async Promise.all (index 3)\n    at async resolveDependencies (/Users/ctom96/.nvm/versions/node/v14.16.0/lib/node_modules/pnpm/dist/pnpm.cjs:115914:29)"
+    }
+  }
+}
